@@ -1,0 +1,20 @@
+<center> <b>Login ?</b> <input type="checkbox" ng-model="vm.checked">
+  <span >
+
+      <form ng-controller="loginCtrl as vm" class="form2" ng-submit="vm.formSubmit()">
+
+        <label class="item item-input" ng-model="login">
+
+          <span class="input-label">Username</span>
+          <input type="text">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Password</span>
+          <input type="password" ng-model="password">
+        </label>
+  <button class="button button-block button-dark" type="submit">
+    Envoyer
+  </button>
+      </form>
+</span>
+</center>
